@@ -1,0 +1,106 @@
+
+/*block eliment*/
+h1{
+ background-color: chocolate;
+
+}
+
+span{
+    background-color: rgb(49, 39, 197); /* inline eliminet block er moto kaj korbe*/
+    height: 80px;
+    width: 100px;
+    margin-right: 15px;
+    display: inline-block;
+    margin-top: 50px;
+
+    
+}
+
+p{
+
+    background-color: darkorange;
+    display: block;
+}
+/* 
+a{
+    background-color:cornflowerblue;
+    color: black;
+    font-size: larger;
+    display:inline-block;
+} */
+
+div{
+    display: inline-block;
+    background-color: gold;
+    width: 100px;
+    height: 100px;
+    font-size: small;
+    
+}
+/* pseudo hover apply */
+.pseudo:hover {
+
+    color: blue;
+    font-size: 70px;
+    font-weight: 600px;
+    font-style: italic;
+    margin-top: 100px;
+
+}
+.pseudo{
+    margin-bottom: 100px;
+}
+
+/* apply hover focus */
+.focus_apply:focus{
+
+    color: rgb(244, 235, 54);
+    background-image: url(pngtree-color-block-graffiti-background-picture-image_982202.jpg);
+    height: 50px;
+    width: 500px;
+    font-size: 50px;
+    font-weight: 80px;
+
+}
+a:visited{
+
+    color: rgb(208, 219, 65);
+    background-color: aqua;
+}
+
+/* 
+li{
+
+     color: rgb(46, 12, 239); 
+} */
+
+/* li er specific child ke colour design korar command */
+li:first-child{
+
+    color: chartreuse;
+}
+
+li:last-child{
+
+    color: darkorange;
+}
+
+li:nth-child(2n+1){
+
+    background-color: darkolivegreen;
+}
+/* use pseudo element */
+
+
+h4::before{
+
+    content: "Hard ";
+    color: rgb(83, 169, 90);
+
+}
+h4::after{
+
+    content: ' as possible';
+    color: rgb(21, 98, 98);
+    font-style: italic;
+}

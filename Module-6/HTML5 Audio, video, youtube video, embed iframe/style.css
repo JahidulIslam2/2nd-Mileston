@@ -1,0 +1,12 @@
+audio{
+    margin-top: 80px;
+    margin-left: 40px;
+    background-color: dodgerblue;
+}
+
+video{
+    height: 500px;
+    width:700px;
+    border: 2px dotted chartreuse;
+    border-radius: 3px;
+}
